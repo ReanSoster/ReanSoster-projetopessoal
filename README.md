@@ -1,5 +1,5 @@
 # Rean Soster - Projeto pessoal 
-! [preview](./screenshot.png)
+![preview](./screenshot.png)
 
 > Como desenvolvi
 
