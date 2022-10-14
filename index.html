@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rean Single-page</title>
+    <link rel="stylesheet" href="./Assets/css/variables.css">
+    <link rel="stylesheet" href="./Assets/css/elements.css">
+    <link rel="stylesheet" href="./Assets/css/classes.css">
+    <link rel="stylesheet" href="./Assets/css/menu.css">
+    <link rel="stylesheet" href="./Assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+</head>
+
+<body>
+
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+        <h1 onclick="getElementById('close-menu').checked=false;">
+            <a href="#home">Rean</a>
+        </h1>
+
+        <nav>
+            <ul onclick="getElementById('close-menu').checked=false;">
+                <li><a href="#top2">Intro</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#pricing">Tabela</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+        </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="home" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Você irá ver a seguir o projeto qual desenvolvi</h2>
+                <p>Me chamo Rean Inácio Soster de Araujo, sou de Campo Grande-MS, 
+                    tenho estudado para me tornar um desenvolvedor de primeira linha, 
+                    atualmente estou finalizando faculdade de Direito, 
+                    entretanto, tenho um grande interesse em me tornar um desenvolvedor, 
+                    para tal tenho estudado com afinco.</p>
+                </div>
+
+                <div class="intro-img">
+                    <img src="./Assets/img/javascript-not-optimized.svg" alt="Logo de HTML, CSS e JS.">
+            </div>
+        </div>
+    </section>
+
+    <section id="top2" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>Top 2 jobs</h2>
+            <p>Este é um dos projetos qual venho estudando sobre HTML, CSS e JavaScript,
+                sendo assim espero que quem visite esta página goste do trabalho qual venho desenvolvendo,
+                onde busco então uma transição de carreira para área de desenvolvedor.
+            </p>
+            <p>Tenho outro trabalho já realizado onde desempenhei um papel de aprendizado referente a HTML e CSS, 
+                então voçês poderão visualizar meu desenvolvimento nessas áreas, logo abaixo descrevo brevemente e lhe oriento a visitá-lo.
+            </p>
+            <p></p>
+        </div>
+    </section>
+
+    <section id="projetos"
+    class="grid-one main-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Top 2 jobs</h2>
+                <p class="grid-description">Apresento-lhes os projetos quais desenvolvi</p>
+                 <div class="grid">
+                    <article>
+                        <h3>Este projeto</h3>
+                        <p>Podemos verificar que este projeto há mais desenvolvimento em relação ao do lado,
+                            tendo em vista tambem que este pode-se tambem abrir em mobile.
+                        </p>
+                    </article>
+                    <article>
+                        <h3>Outro projeto</h3>
+                    <p>Projeto desenvolvido em base de HTML e CSS, qual busquei arduamente a aplicação correta de tags e styles,
+                        ele conta uma pouco mais sobre mim e meus gostos pessoais, para acessar  <a target="_blank" href="https://reansoster.github.io/Projeto/">clique aqui.</a>
+                    </p>
+                    </article>
+                </div>
+        </div>
+    </section>
+
+    <section id="gallery"
+    class="grid-one white-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Galeria</h2>
+                <p class="grid-description">Imagens meramente ilustrativas.</p>
+                 <div class="image">
+                    <div class="gallery-img">
+                        <img src="http://source.unsplash.com/random/360x360?r=1" alt="random image from unsplash">
+                    </div>
+                    <div class="gallery-img">
+                        <img src="http://source.unsplash.com/random/360x360?r=2" alt="random image from unsplash">
+                    </div>
+                    <div class="gallery-img">
+                        <img src="http://source.unsplash.com/random/360x360?r=3" alt="random image from unsplash">
+                    </div>
+                    <div class="gallery-img">
+                        <img src="http://source.unsplash.com/random/360x360?r=4" alt="random image from unsplash">
+                    </div>
+                    <div class="gallery-img">
+                        <img src="http://source.unsplash.com/random/360x360?r=5" alt="random image from unsplash">
+                    </div>
+                    <div class="gallery-img">
+                        <img src="http://source.unsplash.com/random/360x360?r=6" alt="random image from unsplash">
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="main-bg section">
+        <div class="main-content top3-content">
+            <h2>Tabela</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto architecto odio illum expedita dolor quidem neque, dicta cupiditate vel repudiandae minus eum alias corporis praesentium ab cumque ullam error illo?
+
+            </p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi dicta, suscipit fugiat nemo unde ex sunt ipsa distinctio voluptatum maiores itaque explicabo ratione doloremque corrupti reiciendis adipisci consequuntur laborum ducimus.
+            </p>
+            
+            <div class="responsive-table">
+            <table>
+                <caption>Tabela de produtos</caption>
+
+                <thead>
+                    <tr>
+                    <th>Titulo 1</th>
+                    <th>Titulo 2</th>
+                    <th>Titulo 3</th>
+                    <th>Titulo 4</th>
+                    <th>Titulo 5</th>
+                </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                    <td>Conteudo 1</td>
+                    <td>Conteudo 2</td>
+                    <td>Conteudo 3 </td>
+                    <td>Conteudo 4 </td>
+                    <td>Conteudo 5 </td>
+                    </tr>
+                    <tr>
+                        <td>Conteudo 1</td>
+                        <td>Conteudo 2</td>
+                        <td>Conteudo 3 </td>
+                        <td>Conteudo 4 </td>
+                        <td>Conteudo 5 </td>
+                        </tr>
+                        <tr>
+                            <td>Conteudo 1</td>
+                            <td>Conteudo 2</td>
+                            <td>Conteudo 3 </td>
+                            <td>Conteudo 4 </td>
+                            <td>Conteudo 5 </td>
+                            </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td colspan="3">Testando</td>
+                    </tr>
+                </tfoot>
+            </table>
+            </div>
+        </div>
+    </section>
+
+    <div class="menu-spacing"></div>
+
+    <section id="contact" class="intro white-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Entre em contato comigo</h2>
+                <p>Caso tenha gostado da single-page que desenvolvi, buscando uma evolução profissional na area de desenvolvedor,
+                    voçê poderá entrar em contato conforme demonstrado abaixo, agradeço a visita ao meu projeto pessoal.   </p>
+                </div>
+
+                <div class="intro-img">
+                    <img src="./Assets/img/undraw_code_thinking_re_gka2.svg" alt="pensando em codigos.">
+            </div>
+
+            <div class="contact-form">
+                    <fieldset class="form-grid">
+                        <legend>Entre em contato comigo</legend>
+
+                        <div class="form-group">
+                            <label for="frist-name"> Primeiro nome </label>
+                            <input type="text" name="frist-name" id="frist-name" placeholder="Seu nome">
+                            
+                        </div>
+
+                        <div class="form-group">
+                            <label for="last-name"> Sobrenome </label>
+                            <input type="text" name="last-name" id="last-name" placeholder="Sobrenome">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email"> E-mail </label>
+                            <input type="email" name="email" id="email" placeholder="E-mail">
+                        </div>
+
+                        <div class="form-group full-width">
+                            <label for="massage"> Mensagem </label>
+                            <textarea name="message" id="message" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+                        </div>
+
+                        <div class="form-group full-width">
+                            <button type="submit">Enviar mensagem</button>
+                        </div>
+                    </fieldset>
+
+            </div>
+        </div>
+
+ 
+    </section>
+
+    <footer id="footer" class="footer white-bg">
+        <p><a rel="nofollow" target="_blank" href="https://wa.me/55067999348824">Feito com <span class="heart">♥</span> por Rean Soster</a></p>
+    </footer>
+
+    <a class="back-to-top" href="#home">➤</a>
+</body>
+    
+</html>
