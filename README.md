@@ -13,7 +13,7 @@ Projeto desenvolvido para aperfeiçoamento de desenvolvimento de HTML, CSS e Jav
 - Git 
 
 # Clique aqui para acessar o projeto 
-[Clique para acessar](https://https://reansoster.github.io/projeto2/)
+[Clique para acessar](https://reansoster.github.io/projeto2/)
 
 # Contato 
 
